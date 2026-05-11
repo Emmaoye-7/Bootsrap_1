@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoyageVista Travel Agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">VoyageVista</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tours">Tours</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero-section" style="--hero-bg: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80');">
+    <div class="container">
+      <div class="row justify-content-center align-items-center min-vh-75">
+        <div class="col-xl-7 col-lg-8 text-center text-white">
+          <div class="p-5 rounded-4 bg-dark bg-opacity-50">
+            <span class="badge bg-warning text-dark mb-3">All-Inclusive Packages</span>
+            <h1 class="display-4 fw-bold">Discover Your Next Great Escape Journey</h1>
+            <p class="lead mb-4">From coastal retreats to cultural city breaks, we craft unforgettable journeys just for you.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-center">
+              <a href="#destinations" class="btn btn-primary btn-lg">Start Exploring</a>
+              <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="destinations" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge bg-primary mb-3">Top Destinations</span>
+          <h2 class="fw-bold">Explore Featured Locations</h2>
+          <p class="text-muted">Handpicked travel experiences designed to inspire your next adventure.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+          <div class="col">
+            <div class="card destination-card shadow-sm h-100 border-0">
+              <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Beach destination">
+              <div class="card-body">
+                <span class="badge bg-primary mb-2">Beach Retreat</span>
+                <h5 class="card-title">Tropical Paradise</h5>
+                <p class="card-text">Relax on white-sand beaches and enjoy crystal-clear waters with luxury island service.</p>
+                <a href="#contact" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card destination-card shadow-sm h-100 border-0">
+              <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Mountain destination">
+              <div class="card-body">
+                <span class="badge bg-success mb-2">Adventure</span>
+                <h5 class="card-title">Mountain Escape</h5>
+                <p class="card-text">Hike scenic trails, breathe fresh alpine air, and stay in charming lodges with panoramic views.</p>
+                <a href="#contact" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card destination-card shadow-sm h-100 border-0">
+              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="City destination">
+              <div class="card-body">
+                <span class="badge bg-warning text-dark mb-2">Culture</span>
+                <h5 class="card-title">Cultural City Tour</h5>
+                <p class="card-text">Explore historic landmarks, world-class dining, and vibrant nightlife in iconic cities.</p>
+                <a href="#contact" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="py-5 bg-white">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge bg-secondary mb-3">Why VoyageVista</span>
+          <h2 class="fw-bold">Travel Smarter With Expert Support</h2>
+          <p class="text-muted">From curated journeys to seamless booking, our services are designed to help you travel with confidence.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+          <div class="col">
+            <div class="card feature-card h-100 shadow-sm border-0 text-center p-3">
+              <div class="feature-image rounded-4 mb-3" style="background-image:url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=800&q=80');"></div>
+              <h5 class="card-title">Flexible Itineraries</h5>
+              <p class="card-text text-muted">Customize every detail of your trip with expert itinerary planning.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card feature-card h-100 shadow-sm border-0 text-center p-3">
+              <div class="feature-image rounded-4 mb-3" style="background-image:url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80');"></div>
+              <h5 class="card-title">Local Guides</h5>
+              <p class="card-text text-muted">Discover hidden gems with knowledgeable guides in every destination.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card feature-card h-100 shadow-sm border-0 text-center p-3">
+              <div class="feature-image rounded-4 mb-3" style="background-image:url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=800&q=80');"></div>
+              <h5 class="card-title">VIP Service</h5>
+              <p class="card-text text-muted">Enjoy priority support, upgrades, and concierge service for every booking.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card feature-card h-100 shadow-sm border-0 text-center p-3">
+              <div class="feature-image rounded-4 mb-3" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80');"></div>
+              <h5 class="card-title">Safe Travel</h5>
+              <p class="card-text text-muted">Benefit from our experienced planning and on-trip support for peace of mind.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tours" class="py-5 bg-light">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-5">
+            <div class="text-center text-lg-start mb-4 mb-lg-0">
+              <h2 class="fw-bold">Tour Packages</h2>
+              <p class="text-muted">Choose the tour that best fits your travel style, with flexible options and expert guidance.</p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="card shadow-sm border-0">
+              <div class="card-body p-0">
+                <div class="accordion" id="tourAccordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Coastal Adventure Package
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#tourAccordion">
+                      <div class="accordion-body">
+                        Discover hidden coves, seaside villages, and gourmet seafood dining with this 7-day coastal tour.
+                        <div class="mt-3"><a href="#contact" class="link-primary">View Details</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Cultural Immersion Tour
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#tourAccordion">
+                      <div class="accordion-body">
+                        Immerse yourself in local traditions, markets, museums, and cuisine with expert guides at every step.
+                        <div class="mt-3"><a href="#contact" class="link-primary">View Details</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Wellness Retreat Journey
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#tourAccordion">
+                      <div class="accordion-body">
+                        Rejuvenate with spa treatments, yoga sessions, and scenic nature excursions in tranquil locations.
+                        <div class="mt-3"><a href="#contact" class="link-primary">View Details</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-10">
+            <div class="row g-4">
+              <div class="col-lg-5">
+                <div class="bg-primary text-white rounded-4 p-4 h-100 shadow-sm">
+                  <h2 class="fw-bold">Contact Form</h2>
+                  <p class="mb-4">Send us your travel preferences and one of our agents will reach out shortly.</p>
+                  <ul class="list-unstyled mb-0">
+                    <li class="mb-2"><strong>Phone:</strong> +1 234 567 890</li>
+                    <li class="mb-2"><strong>Email:</strong> hello@voyagevista.com</li>
+                    <li><strong>Support:</strong> Mon - Fri, 9am - 6pm</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="card shadow-sm border-0">
+                  <div class="card-body p-4">
+                    <form>
+                      <div class="row g-3">
+                        <div class="col-md-6">
+                          <div class="form-floating">
+                            <input type="text" class="form-control" id="travelerName" placeholder="Your name" required>
+                            <label for="travelerName">Name</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-floating">
+                            <input type="email" class="form-control" id="travelerEmail" placeholder="you@example.com" required>
+                            <label for="travelerEmail">Email</label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-floating">
+                            <select id="destinationInterest" class="form-select" required>
+                              <option value="" selected disabled>Select a destination</option>
+                              <option>Beach Getaway</option>
+                              <option>City Break</option>
+                              <option>Adventure Trek</option>
+                            </select>
+                            <label for="destinationInterest">Destination of Interest</label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-floating">
+                            <textarea class="form-control" id="travelMessage" rows="5" placeholder="Tell us about your ideal trip" required></textarea>
+                            <label for="travelMessage">Message</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-grid mt-4">
+                        <button type="submit" class="btn btn-primary btn-lg">Send Inquiry</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md">
+          <p class="mb-2 mb-md-0">© 2026 VoyageVista. Your journey begins here.</p>
+        </div>
+        <div class="col-md-auto footer-links">
+          <a href="#" class="me-3">Facebook</a>
+          <a href="#" class="me-3">Instagram</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
